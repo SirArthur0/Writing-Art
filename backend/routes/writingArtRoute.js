@@ -4,6 +4,6 @@ const writingArtController = require('../controllers/writingArtController');
 
 const router = express.Router();
 
-router.get('/all', writingArtController.getAllWritingArt);
+router.get('/', writingArtController.getAllWritingArt);
 
 module.exports = router;

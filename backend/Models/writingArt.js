@@ -8,8 +8,6 @@ module.exports = class WritingArt {
     this.img = img;
   }
 
-  static fetchAll() {
-    return db.execute('SELECT * FROM writingart');
-  }
+  static fetchAll() { return db.execute('SELECT * FROM writingart') }
 
 };
