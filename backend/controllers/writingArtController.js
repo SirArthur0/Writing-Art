@@ -1,4 +1,4 @@
-const WritingArt = require('ADD PATH WHEN YOU CREATE THE MODELS');
+const WritingArt = require('../Models/writingArt');
 
 exports.getAllWritingArt = async (req, res, next) => {
     try {
@@ -10,5 +10,4 @@ exports.getAllWritingArt = async (req, res, next) => {
         }
         next(err);
     }
-
 };

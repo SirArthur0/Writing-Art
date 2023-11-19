@@ -1,4 +1,4 @@
-const mysql = require('mysql8');
+const mysql = require('mysql');
 
 const config = require('../config/config.json');
 
@@ -9,4 +9,4 @@ const pool = mysql.createPool({
   password: config.password,
 });
 
-module.exports = pool.promise();
+module.exports = pool;
