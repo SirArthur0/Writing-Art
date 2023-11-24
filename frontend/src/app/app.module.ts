@@ -13,6 +13,9 @@ import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatCardModule } from '@angular/material/card'
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { AllComponent } from './components/writingArt/all/all.component';
+import { CategoryComponent } from './components/writingArt/category/category.component';
+import { BheComponent } from './components/writingArt/bhe/bhe.component';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import { MatButtonModule } from '@angular/material/button';
     AppComponent,
     HeaderComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    AllComponent,
+    CategoryComponent,
+    BheComponent
   ],
   imports: [
     BrowserModule,
