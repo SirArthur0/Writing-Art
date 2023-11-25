@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { AllComponent } from './components/writingArt/all/all.component';
 import { CategoryComponent } from './components/writingArt/category/category.component';
 import { BheComponent } from './components/writingArt/bhe/bhe.component';
+import { HomeComponent } from './components/views/home/home.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { BheComponent } from './components/writingArt/bhe/bhe.component';
     FooterComponent,
     AllComponent,
     CategoryComponent,
-    BheComponent
+    BheComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
