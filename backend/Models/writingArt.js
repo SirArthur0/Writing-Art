@@ -1,13 +1,14 @@
-const db = require('../util/database');
+const db = require('/frontend/src/app/components/WritingArt/writingArt.model.ts');
 
 module.exports = class WritingArt {
-  constructor(id, name, description, img) {
-    this.id = id;
-    this.name = name;
-    this.description = description;
-    this.img = img;
+  constructor(artId, author, authorDetails, artTitle, artDetails) {
+    this.artId = artId;
+    this.author = author;
+    this.authorDetails = authorDetails;
+    this.artTitle = artTitle;
+    this.artDetails = artDetails;
   }
 
-  static fetchAll() { return db.execute('SELECT * FROM writingart') }
+  static fetchAll() { return db.execute('SELECT * FROM artdetails') }
 
 };
