@@ -1,11 +1,10 @@
 .header {
-    display: flex;
-    height: 90px;   
+    height: 90px;
 }
 
 .logo {
     padding-top: 10px;
-    margin-left: 860px;
+    margin-left: 870px;
     height: 130px;
     width: 150px;
 }

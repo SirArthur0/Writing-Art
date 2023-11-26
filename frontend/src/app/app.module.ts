@@ -17,6 +17,7 @@ import { AllComponent } from './components/writingArt/all/all.component';
 import { CategoryComponent } from './components/writingArt/category/category.component';
 import { BheComponent } from './components/writingArt/bhe/bhe.component';
 import { HomeComponent } from './components/views/home/home.component';
+import { DetailedComponent } from './components/writingArt/detailed/detailed.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HomeComponent } from './components/views/home/home.component';
     AllComponent,
     CategoryComponent,
     BheComponent,
-    HomeComponent
+    HomeComponent,
+    DetailedComponent
   ],
   imports: [
     BrowserModule,
