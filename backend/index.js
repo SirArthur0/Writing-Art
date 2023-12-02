@@ -21,7 +21,7 @@ app.use((req, res, next) => {
     next();
   });
 
-app.use('/all', writingArtRouter)
+app.use('/writingArt', writingArtRouter)
 
 app.use(errorController.get404);
 

@@ -1,0 +1,7 @@
+
+
+<img src="../../../../assets/art/1 - The Birth of Venus.jpg" class="img">
+
+<p *ngFor="let writingArt of writingArt$ | async">
+    <span>{{ writingArt.author }}. {{ writingArt.artTitle }}</span>
+</p>
