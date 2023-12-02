@@ -1,4 +1,5 @@
-const db = require('/frontend/src/app/components/WritingArt/writingArt.model.ts');
+const db = require('../util/database');
+
 
 module.exports = class WritingArt {
   constructor(artId, author, authorDetails, artTitle, artDetails) {

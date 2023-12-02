@@ -18,6 +18,7 @@ import { CategoryComponent } from './components/writingArt/category/category.com
 import { BheComponent } from './components/writingArt/bhe/bhe.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { DetailedComponent } from './components/writingArt/detailed/detailed.component';
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { DetailedComponent } from './components/writingArt/detailed/detailed.com
     MatSidenavModule,
     MatCardModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
